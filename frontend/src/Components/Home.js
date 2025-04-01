@@ -23,7 +23,7 @@ function Home() {
         boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)'
       }}>
         <div style={{ marginRight: '20px' }}>
-          <h1 style={{ color: '#333', marginBottom: '10px' }}>Welcome to the Travel Website</h1>
+          <h1 style={{ color: '#333', marginBottom: '10px' }}> STORYNEST- Welcome to the Blog - Website</h1>
           <p style={{ color: '#555', marginBottom: '20px' }}>Your adventure begins here. Explore the world with us.</p>
          
           
