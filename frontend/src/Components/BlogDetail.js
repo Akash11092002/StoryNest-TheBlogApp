@@ -25,7 +25,7 @@ const BlogDetail = () => {
     console.log(id);
 
     const fetchDetails =async ()=>{
-      const res=await axios.get(`http://localhost:5000/api/blog/${id}`).catch(err=> console.log(err));
+      const res=await axios.get(`https://storynest-theblogapp.onrender.com/api/blog/${id}`).catch(err=> console.log(err));
      const data=await res.data;
      return data;
   
@@ -44,7 +44,7 @@ const BlogDetail = () => {
    },[id]);
 
   const sendRequest =async()=>{
-     const res= axios.put(`http://localhost:5000/api/blog/update/${id}`,{
+     const res= axios.put(`https://storynest-theblogapp.onrender.com/api/blog/update/${id}`,{
       title:inputs.title,
       description:inputs.description
      }).catch(err => console.log(err));
