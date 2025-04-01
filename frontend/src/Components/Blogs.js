@@ -6,7 +6,7 @@ const Blogs = () => {
 
   const sendRequest = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/blog");
+      const res = await axios.get("https://storynest-theblogapp.onrender.com/api/blog");
       return res.data; 
     } catch (err) {
       console.error("Error fetching blogs:", err);
